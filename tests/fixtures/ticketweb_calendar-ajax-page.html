@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head><title>Calendar - The Park Theatre</title></head><body>
+<div id="tw-responsive"><div id="calendar1" class="tw-plugin-calendar"></div><div id="tw-plugin-calendar-popup"></div></div>
+<script>
+        function loadEvents(calcount, start_date, end_date, successCallback) {
+            jQuery.ajax({
+                type: 'POST',
+                dataType: 'json',
+                //async: false,
+                url: 'https://myparktheatre.com/wp-admin/admin-ajax.php',
+                data: {
+                    action: 'get_events_for_calendar',
+                    nonce: '0123456789',
+                    start: start_date,
+                    end: end_date,
+                    params: '{"id":null,"type":"calendar","event_id":null,"event_ids":null,"tags":null,"month":"10","year":"2026","page":0}',
+                },
+                success: function(data) { successCallback(data.events); }
+            });
+        }
+</script>
+</body></html>

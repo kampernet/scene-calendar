@@ -1,0 +1,31 @@
+{
+ "pagination": {
+  "nextPage": false
+ },
+ "upcoming": [
+  {
+   "id": "jan",
+   "title": "Winter Show",
+   "startDate": 1800064800000,
+   "endDate": 1800075600000,
+   "fullUrl": "/events/winter-show",
+   "body": "<p>Great night.</p>"
+  },
+  {
+   "id": "jul",
+   "title": "Summer Show",
+   "startDate": 1815181200000,
+   "endDate": 1815193800000,
+   "fullUrl": "/events/summer-show",
+   "body": ""
+  },
+  {
+   "id": "mid",
+   "title": "Midnight Placeholder",
+   "startDate": 1803880800000,
+   "endDate": 1803880800000,
+   "fullUrl": "/events/midnight",
+   "body": ""
+  }
+ ]
+}

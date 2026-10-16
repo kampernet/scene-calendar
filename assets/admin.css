@@ -1,0 +1,38 @@
+.scenecal-muted { color: #646970; font-size: 12px; }
+.scenecal-lineup { color: #50575e; font-size: 12px; margin-top: 2px; }
+.scenecal-badge {
+	display: inline-block;
+	margin-left: 6px;
+	padding: 0 6px;
+	border-radius: 9px;
+	background: #f0f0f1;
+	color: #50575e;
+	font-size: 11px;
+	line-height: 18px;
+	vertical-align: middle;
+}
+.scenecal-disabled td { opacity: 0.6; }
+.scenecal-sources { word-break: break-all; }
+.scenecal-inline { margin-left: 12px; }
+.scenecal-inline-form { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.scenecal-form .form-table input[type="text"]:not(.large-text):not(.regular-text):not(.small-text) { width: 12em; }
+.scenecal-log {
+	max-height: 480px;
+	overflow: auto;
+	padding: 12px;
+	background: #1d2327;
+	color: #f0f0f1;
+	font-size: 12px;
+	line-height: 1.5;
+	white-space: pre-wrap;
+	word-break: break-word;
+}
+.scenecal-log-short { max-height: 160px; }
+.scenecal-active { padding: 4px 16px 12px; margin: 16px 0; background: #fff; border-left: 4px solid #2271b1; box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+.scenecal-test-result { padding: 4px 16px 16px; margin: 16px 0; background: #fff; border: 1px solid #c3c4c7; }
+.scenecal-empty { padding: 24px; background: #fff; border: 1px dashed #c3c4c7; text-align: center; }
+.scenecal-parser-help [hidden], .scenecal-parser-field[hidden] { display: none; }
+#scenecal-test-result { margin-top: 10px; }
+#scenecal-test-result .notice { margin: 0 0 8px; }
+.scenecal-test-table { max-width: 900px; margin-bottom: 8px; }
+.scenecal-parser-test-row[hidden] { display: none; }

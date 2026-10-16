@@ -1,0 +1,59 @@
+{
+ "events": [
+  {
+   "id": 891,
+   "title": "The Castagne&#8217;s",
+   "description": "",
+   "url": "https://pyramidcabaret.com/event/the-castagnes/",
+   "start_date": "2026-10-17 22:00:00",
+   "end_date": "2026-10-17 23:30:00",
+   "all_day": false,
+   "cost": "",
+   "website": "https://www.bloomtickets.ca/event/2397",
+   "venue": []
+  },
+  {
+   "id": 753,
+   "title": "&#8220;The Last Waltz&#8221; The Official Revival of THE BAND the Band",
+   "description": "",
+   "url": "https://pyramidcabaret.com/event/the-last-waltz-the-official-revival-of-the-band-the-band/",
+   "start_date": "2026-10-23 19:30:00",
+   "end_date": "2026-10-24 01:30:00",
+   "all_day": false,
+   "cost": "",
+   "website": "https://www.showpass.com/the-last-waltz-the-official-revival-of-the-band-the-band/",
+   "venue": []
+  },
+  {
+   "id": 865,
+   "title": "ROLL and BOWL BSDS 2026",
+   "description": "",
+   "url": "https://pyramidcabaret.com/event/roll-and-bowl-bsds-2026/",
+   "start_date": "2026-10-28 17:00:00",
+   "end_date": "2026-10-28 20:00:00",
+   "all_day": false,
+   "cost": "",
+   "website": "",
+   "venue": []
+  },
+  {
+   "id": 887,
+   "title": "The Dark 80s / Cave of Bats Halloween Party at The Albert",
+   "description": "",
+   "url": "https://pyramidcabaret.com/event/the-dark-80s-cave-of-bats-halloween-party-at-the-albert/",
+   "start_date": "2026-10-30 20:00:00",
+   "end_date": "2026-10-30 23:30:00",
+   "all_day": false,
+   "cost": "",
+   "website": "https://www.tickettailor.com/events/12xuproductions/2401340",
+   "venue": {
+    "venue": "Royal Albert Arms",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada"
+   }
+  }
+ ],
+ "total": 4,
+ "total_pages": 1
+}

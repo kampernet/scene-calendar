@@ -1,0 +1,18 @@
+{
+ "pagination": {
+  "nextPage": true,
+  "nextPageOffset": 1,
+  "nextPageUrl": "/events?offset=1799999999999",
+  "pageSize": 1
+ },
+ "upcoming": [
+  {
+   "id": "p1",
+   "title": "Page One Show",
+   "startDate": 1794016800000,
+   "endDate": null,
+   "fullUrl": "/events/page-one",
+   "body": "<p>Show: 8pm</p><p>$15 advance / $20 door</p><p><a href=\"https://example.thundertix.com/events/1\">Buy Tickets</a></p>"
+  }
+ ]
+}

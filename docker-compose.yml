@@ -1,0 +1,76 @@
+# Local WordPress for end-to-end testing.
+#
+#   docker compose up -d
+#   bin/setup.sh            # installs WordPress + activates the plugin
+#   open http://localhost:8080/wp-admin  (admin / admin)
+#
+#   bin/test.sh             # runs the test suite inside WordPress
+#   docker compose run --rm cli wp scene-calendar run
+services:
+  db:
+    image: mariadb:11
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: wordpress
+      MARIADB_ROOT_PASSWORD: root
+    volumes:
+      - db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 5s
+      retries: 20
+
+  wordpress:
+    image: wordpress:php8.2-apache
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8080:8080"
+    # Serve on 8080 inside the container too, so WordPress can reach itself at
+    # http://localhost:8080 (the plugin's background ticks are loopback requests).
+    command: >
+      bash -c "grep -q 'Listen 8080' /etc/apache2/ports.conf || echo 'Listen 8080' >> /etc/apache2/ports.conf;
+      sed -i 's/<VirtualHost \*:80>/<VirtualHost *:80 *:8080>/' /etc/apache2/sites-available/000-default.conf;
+      exec docker-entrypoint.sh apache2-foreground"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DEBUG: 1
+      # Optional: put API keys in a .env file next to this compose file.
+      SCENECAL_OPENAI_API_KEY: ${SCENECAL_OPENAI_API_KEY:-}
+      SCENECAL_ANTHROPIC_API_KEY: ${SCENECAL_ANTHROPIC_API_KEY:-}
+      SCENECAL_GOOGLE_API_KEY: ${SCENECAL_GOOGLE_API_KEY:-}
+      SCENECAL_GOOGLE_CSE_ID: ${SCENECAL_GOOGLE_CSE_ID:-}
+      SCENECAL_APIFY_API_KEY: ${SCENECAL_APIFY_API_KEY:-}
+    volumes:
+      - wp:/var/www/html
+      - ./:/var/www/html/wp-content/plugins/scene-calendar
+
+  cli:
+    image: wordpress:cli-php8.2
+    user: "33:33"
+    depends_on:
+      - wordpress
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_NAME: wordpress
+      SCENECAL_OPENAI_API_KEY: ${SCENECAL_OPENAI_API_KEY:-}
+      SCENECAL_ANTHROPIC_API_KEY: ${SCENECAL_ANTHROPIC_API_KEY:-}
+      SCENECAL_GOOGLE_API_KEY: ${SCENECAL_GOOGLE_API_KEY:-}
+      SCENECAL_GOOGLE_CSE_ID: ${SCENECAL_GOOGLE_CSE_ID:-}
+      SCENECAL_APIFY_API_KEY: ${SCENECAL_APIFY_API_KEY:-}
+    volumes:
+      - wp:/var/www/html
+      - ./:/var/www/html/wp-content/plugins/scene-calendar
+    entrypoint: ["wp"]
+    command: ["--info"]
+
+volumes:
+  db:
+  wp:

@@ -1,0 +1,15 @@
+{
+ "pagination": {
+  "nextPage": false
+ },
+ "upcoming": [
+  {
+   "id": "p2",
+   "title": "Page Two &amp; Friends",
+   "startDate": 1794103200000,
+   "endDate": null,
+   "fullUrl": "/events/page-two",
+   "body": "<p>FREE admission</p>"
+  }
+ ]
+}

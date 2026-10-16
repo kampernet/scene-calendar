@@ -1,0 +1,111 @@
+{
+ "count": 4,
+ "next": null,
+ "previous": null,
+ "results": [
+  {
+   "id": 1544306,
+   "name": "Compost, We're Only Here For The Snacks, Jason Tait",
+   "slug": "compost2026",
+   "starts_on": "2026-10-25T00:00:00Z",
+   "ends_on": "2026-10-25T04:30:00Z",
+   "local_starts_on": "2026-10-24T19:00:00-05:00",
+   "local_ends_on": null,
+   "frontend_price": null,
+   "description": "<p>Real Love Winnipeg presents... </p>\n<p>••• Compost<br>•• We're Only Here For The Snacks<br>• Jason Tait</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p>Public Domain<br>October 24 2026<br>Doors at 7:00 • Music at 8:00<br>18+ or with a legal guardian</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p><a href=\"https://www.instagram.com/reallovewpg\">@reallovewpg</a><a title=\"Accessibility / Policies\" hre",
+   "timezone": "America/Winnipeg",
+   "venue": {
+    "id": 2439,
+    "slug": "reallovewinnipeg",
+    "name": "Real Love Winnipeg",
+    "city": "Winnipeg"
+   },
+   "location": {
+    "id": 41114,
+    "name": "Public Domain",
+    "street_name": "633 Portage Ave",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "country": "CA"
+   }
+  },
+  {
+   "id": 1559795,
+   "name": "Spencer Krug (of Wolf Parade, Sunset Rubdown..) LIVE at Cornerstone in Winnipeg",
+   "slug": "spencerkrug26",
+   "starts_on": "2026-10-27T00:00:00Z",
+   "ends_on": "2026-10-27T03:00:00Z",
+   "local_starts_on": "2026-10-26T19:00:00-05:00",
+   "local_ends_on": null,
+   "frontend_price": null,
+   "description": "<p>Real Love Winnipeg presents... </p>\n<h3>Spencer Krug</h3>\n<p>of Wolf Parade, Sunset Rubdown, Frog Eyes, Moonface, Swan Lake &amp; more..</p>\n<p>w/ guests tba</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p>Cornerstone - 300 Hugo St N<br>October 26, 2026<br>Doors at 7:00 • Music at 8:00<br>All ages</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p>After fifteen years of writing and performing with pro",
+   "timezone": "America/Winnipeg",
+   "venue": {
+    "id": 2439,
+    "slug": "reallovewinnipeg",
+    "name": "Real Love Winnipeg",
+    "city": "Winnipeg"
+   },
+   "location": {
+    "id": 56324,
+    "name": "300 Hugo St N",
+    "street_name": "300 Hugo St N",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "country": "CA"
+   }
+  },
+  {
+   "id": 1565667,
+   "name": "Real Love Thursday w/ Charlie Redstar, Lakes and Pines & Hot Wine",
+   "slug": "rlt29oct",
+   "starts_on": "2026-10-30T00:00:00Z",
+   "ends_on": "2026-10-30T03:00:00Z",
+   "local_starts_on": "2026-10-29T19:00:00-05:00",
+   "local_ends_on": null,
+   "frontend_price": null,
+   "description": "<p>Real Love Winnipeg presents... </p>\n<p>••• Charlie Redstard<br>•• Lakes and Pines<br>• Hot Wine</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p>The Handsome Daughter<br>October 29 2026<br>Doors at 7:00 • Music at 7:30<br>ALL AGES</p>\n<p>•••••••••••••••••••••••••••••••</p>\n<p><a href=\"https://www.instagram.com/reallovewpg\">@reallovewpg</a><a title=\"Accessibility / Policies\" href=\"https://reallovew",
+   "timezone": "America/Winnipeg",
+   "venue": {
+    "id": 2439,
+    "slug": "reallovewinnipeg",
+    "name": "Real Love Winnipeg",
+    "city": "Winnipeg"
+   },
+   "location": {
+    "id": 6364,
+    "name": "The Handsome Daughter",
+    "street_name": "61 Sherbrook St",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "country": "Canada"
+   }
+  },
+  {
+   "id": 1562873,
+   "name": "The Vitals \"Soft Damage EP\" Release Show w/Whispering City & Placeholder",
+   "slug": "thevitals2026",
+   "starts_on": "2026-10-31T00:30:00Z",
+   "ends_on": "2026-10-31T04:05:00Z",
+   "local_starts_on": "2026-10-30T19:30:00-05:00",
+   "local_ends_on": null,
+   "frontend_price": null,
+   "description": "<p>Real Love Winnipeg Presents...</p>\n<p> </p>\n<p>The Vitals \"Soft Damage\" EP Release</p>\n<p>with Whispering City and Placeholder</p>\n<p> </p>\n<p>Friday, October 30, 2026</p>\n<p>Public Domain</p>\n<p>Doors at 7:30, Music at 8:30</p>\n<p> </p>\n<p> </p>",
+   "timezone": "America/Winnipeg",
+   "venue": {
+    "id": 2439,
+    "slug": "reallovewinnipeg",
+    "name": "Real Love Winnipeg",
+    "city": "Winnipeg"
+   },
+   "location": {
+    "id": 41114,
+    "name": "Public Domain",
+    "street_name": "633 Portage Ave",
+    "city": "Winnipeg",
+    "province": "Manitoba",
+    "country": "CA"
+   }
+  }
+ ]
+}

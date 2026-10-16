@@ -1,0 +1,35 @@
+{
+ "monthFilter": 1793509200000,
+ "pagination": {
+  "nextPage": "November-2026",
+  "nextPageUrl": "?month=november-2026&view=calendar",
+  "prevPage": "October-2026",
+  "prevPageUrl": "?month=october-2026&view=calendar"
+ },
+ "items": [
+  {
+   "id": "6a93091342527b5f10f26e47",
+   "title": "LIVE BAND: LEDDWYN",
+   "startDate": 1795921200805,
+   "endDate": 1795931940805,
+   "fullUrl": "/live-entertainment/2026/1/24/live-band-leddwyn-phwbt",
+   "body": ""
+  },
+  {
+   "id": "6a93074dfd819727c1953ae0",
+   "title": "LIVE BAND: TRONIC SOUNDSCAPE",
+   "startDate": 1795834800388,
+   "endDate": 1795845540388,
+   "fullUrl": "/live-entertainment/2026/4/18/live-band-tronic-soundscape-dr49h",
+   "body": ""
+  },
+  {
+   "id": "6a9307144a82787f2e35dbd9",
+   "title": "LIVE BAND: 10@2",
+   "startDate": 1795316400207,
+   "endDate": 1795327140207,
+   "fullUrl": "/live-entertainment/2026/5/23/live-band-102-rbcz8",
+   "body": ""
+  }
+ ]
+}

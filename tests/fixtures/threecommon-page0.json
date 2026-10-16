@@ -1,0 +1,65 @@
+{
+ "pagination": {
+  "count": 21,
+  "pageCount": 2
+ },
+ "events": [
+  {
+   "_id": "6aa0210e51db38a69382bf32",
+   "name": "SHOW PONY w/ Pure Impact & Placeholder",
+   "start": "2026-10-17T01:00:00.000Z",
+   "end": "2026-10-17T02:00:00.000Z",
+   "currency": "CAD",
+   "items": [
+    {
+     "name": "",
+     "type": "regular",
+     "price": "0"
+    }
+   ],
+   "timezone": {
+    "value": "America/Winnipeg",
+    "offset": 300
+   },
+   "description": "The Handsome Daughter Presents..<div><br></div><div><b>SHOW PONY</b></div><div><b>with&nbsp;</b></div><div><b>PURE IMPACT&nbsp;</b></div><div><b>PLACEHOLDER</b></div><div><br></div><div>Friday, Octobe"
+  },
+  {
+   "_id": "6a96e4ca4ff6ea50f4fa2da0",
+   "name": "Federal Lights & An Unexpected End with Amber Rose",
+   "start": "2026-10-18T01:00:00.000Z",
+   "end": "2026-10-18T02:00:00.000Z",
+   "currency": "CAD",
+   "items": [
+    {
+     "name": "",
+     "type": "regular",
+     "price": "0"
+    }
+   ],
+   "timezone": {
+    "value": "America/Winnipeg",
+    "offset": 300
+   },
+   "description": "<div><b style=\"font-family: inherit; font-size: inherit; letter-spacing: 0px;\">FEDERAL LIGHTS</b></div><div><b>AN UNEXPECTED END</b></div><div><b>with guest</b></div><div><b>AMBER ROSE</b></div><div><"
+  },
+  {
+   "_id": "6ababc47b6a873916409d276",
+   "name": "Bob's Burgers Halloween Trivia Presented by The Handsome Daughter",
+   "start": "2026-10-20T00:00:00.000Z",
+   "end": "2026-10-20T01:00:00.000Z",
+   "currency": "CAD",
+   "items": [
+    {
+     "name": "",
+     "type": "regular",
+     "price": "0"
+    }
+   ],
+   "timezone": {
+    "value": "America/Winnipeg",
+    "offset": 300
+   },
+   "description": "🦇🎃🍔Attention Burger Babies! 🍔🎃🦇<div><br></div><div>The Handsome Daughter presents: Bob’s Burgers Halloween Trivia!</div><div><br></div><div>Monday, October 19th</div><div><br></div><div>Team sign in a"
+  }
+ ]
+}

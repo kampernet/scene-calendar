@@ -1,0 +1,35 @@
+{
+ "monthFilter": 1790830800000,
+ "pagination": {
+  "nextPage": "November-2026",
+  "nextPageUrl": "?month=november-2026&view=calendar",
+  "prevPage": "September-2026",
+  "prevPageUrl": "?month=september-2026&view=calendar"
+ },
+ "items": [
+  {
+   "id": "6ab2f3d9ddb1dc1ff9b8d38c",
+   "title": "LIVE BAND: CHEERS TO THE 90's",
+   "startDate": 1793498400075,
+   "endDate": 1793509140075,
+   "fullUrl": "/live-entertainment/2026/7/11/live-band-cheers-to-the-90s-wtxb5-4mwyz",
+   "body": ""
+  },
+  {
+   "id": "6a43ebbeeaa5f219b37d3dd0",
+   "title": "LIVE BAND: THE STEAMERS",
+   "startDate": 1793412000122,
+   "endDate": 1793422740122,
+   "fullUrl": "/live-entertainment/2026/4/10/live-band-the-steamers-zfj3s",
+   "body": ""
+  },
+  {
+   "id": "6ab2f39e40260015e9d019aa",
+   "title": "LIVE BAND: BANGERS &amp; MASH",
+   "startDate": 1792893600626,
+   "endDate": 1792904340626,
+   "fullUrl": "/live-entertainment/2026/8/1/live-band-bangers-amp-mash-e77cb",
+   "body": ""
+  }
+ ]
+}

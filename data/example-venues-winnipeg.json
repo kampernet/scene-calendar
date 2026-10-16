@@ -1,0 +1,433 @@
+[
+  {
+    "name": "The Handsome Daughter",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://3common.com/u/thehandsomedaughter_",
+    "instagram": "thehandsomedaughter",
+    "aliases": [
+      "HD",
+      "Handsome Daughter",
+      "The Daughter"
+    ],
+    "parser": "threecommon",
+    "agent_mode": "always",
+    "3common_uid": "667447a736fa859aaebb088b"
+  },
+  {
+    "name": "Public Domain",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.showpass.com/venues/public-domain/",
+    "instagram": "publicdomainwpg",
+    "aliases": [
+      "Public Domain Winnipeg",
+      "Public Domain 204"
+    ],
+    "parser": "showpass",
+    "agent_mode": "always",
+    "showpass_id": 18364,
+    "website": "https://publicdomain204.ca/"
+  },
+  {
+    "name": "Real Love",
+    "type": "promoter",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.showpass.com/o/reallovewinnipeg/",
+    "instagram": "reallovewpg",
+    "aliases": [
+      "Real Love Winnipeg"
+    ],
+    "parser": "showpass",
+    "agent_mode": "always",
+    "showpass_id": 2439
+  },
+  {
+    "name": "Must Be The Place",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "mustbetheplacewpg",
+    "aliases": [],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Sidestage",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.sidestagewpg.com/",
+    "instagram": "sidestagewpg",
+    "aliases": [
+      "Sidestage Winnipeg",
+      "Side Stage"
+    ],
+    "parser": "ticketweb_list",
+    "agent_mode": "always"
+  },
+  {
+    "name": "The Park Theatre",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://myparktheatre.com/calendar/",
+    "instagram": "parktheatre",
+    "aliases": [
+      "Park Theatre",
+      "Park Theatre Cafe",
+      "The Park Theatre Cafe"
+    ],
+    "parser": "ticketweb_calendar",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Osborne Taphouse",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.osbornetaphouse.ca/live",
+    "instagram": "osbornetaphouse",
+    "aliases": [
+      "The Osborne Taphouse"
+    ],
+    "parser": "poster_vision",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Club Happenings",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "club.happenings",
+    "aliases": [
+      "Happenings"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Park Alleys",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://3common.com/u/parkalleys",
+    "instagram": "parkalleysbowl",
+    "aliases": [
+      "Park Alleys Bowl",
+      "Park Alleys Bowling"
+    ],
+    "parser": "threecommon",
+    "agent_mode": "always",
+    "3common_uid": "649c3cd3933feea998c349c1"
+  },
+  {
+    "name": "King Cob Market Pub",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "kingcobpub",
+    "aliases": [
+      "King Cob",
+      "King Cob Pub"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Times Changed High and Lonesome Club",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.eventbrite.ca/o/times-changed-high-lonesome-club-18256543452",
+    "instagram": "timeschangedwpg",
+    "aliases": [
+      "Times Changed",
+      "Times Change",
+      "Times Changed High & Lonesome Club",
+      "Times Change High and Lonesome Club",
+      "High and Lonesome Club",
+      "High & Lonesome Club"
+    ],
+    "parser": "eventbrite",
+    "agent_mode": "always"
+  },
+  {
+    "name": "X Cues",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "xcuescafeloungeandevents",
+    "aliases": [
+      "X-Cues",
+      "X-Cues Cafe & Lounge",
+      "X Cues Cafe and Lounge",
+      "X-Cues Cafe Lounge and Events",
+      "X-Cues Billiards"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "ANAF 60",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "",
+    "aliases": [
+      "ANAF Assembly 60",
+      "ANAF Club 60",
+      "ANAF Unit 60",
+      "Army Navy Air Force 60"
+    ],
+    "parser": "none",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "The Royal Albert Arms",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "royalalbertarms",
+    "aliases": [
+      "Royal Albert",
+      "Royal Albert Arms",
+      "Royal Albert Arms Hotel"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "The Pyramid Cabaret",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://pyramidcabaret.com/events/",
+    "instagram": "",
+    "aliases": [
+      "Pyramid Cabaret",
+      "The Pyramid"
+    ],
+    "parser": "tribe_events",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "West End Cultural Centre",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.wecc.ca/events",
+    "instagram": "",
+    "aliases": [
+      "WECC",
+      "West End Cultural Center"
+    ],
+    "parser": "squarespace",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "The Kings Head Pub",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.kingshead.ca/live-entertainment",
+    "instagram": "",
+    "aliases": [
+      "Kings Head",
+      "Kings Head Pub",
+      "The King's Head"
+    ],
+    "parser": "squarespace",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "The Toad in the Hole Pub",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.thetoadpubwinnipeg.com/live-music-calendar",
+    "instagram": "",
+    "aliases": [
+      "The Toad",
+      "Toad in the Hole",
+      "The Toad Pub"
+    ],
+    "parser": "ical",
+    "agent_mode": "fallback",
+    "ical_url": "https://calendar.google.com/calendar/ical/de497cb9965ad6a86bc85e79431f63e8a41477124ea33995212210385318e8cf%40group.calendar.google.com/public/basic.ics"
+  },
+  {
+    "name": "Kilter Brewing Winnipeg",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "",
+    "aliases": [
+      "Kilter Brewing",
+      "Kilter Brewing Co",
+      "Kilter"
+    ],
+    "parser": "none",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "Sookram's Brewing Company",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "",
+    "aliases": [
+      "Sookrams",
+      "Sookram's Brewing",
+      "Sookrams Brewing Co"
+    ],
+    "parser": "none",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "Le Patio 340",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "",
+    "aliases": [
+      "Patio 340"
+    ],
+    "parser": "none",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "Low Life Barrel House",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "lowlifebarrelhouse",
+    "aliases": [
+      "Low Life",
+      "Lowlife Barrel House"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Bulldog Event Centre",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "bulldogsonmain",
+    "aliases": [
+      "Bulldogs on Main",
+      "Bulldog Event Center"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Always Dale",
+    "type": "promoter",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "always_dale",
+    "aliases": [],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Burton Cummings Theatre",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.burtoncummingstheatre.ca/events/",
+    "instagram": "",
+    "aliases": [
+      "The Burton Cummings Theatre",
+      "Burton Cummings",
+      "The Burt"
+    ],
+    "parser": "tribe_events",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "Manitoba Music",
+    "type": "promoter",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "https://www.manitobamusic.com/livemusic.rss",
+    "instagram": "",
+    "aliases": [],
+    "parser": "rss",
+    "agent_mode": "fallback"
+  },
+  {
+    "name": "Dreams Nightlife",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "dreamswpg",
+    "aliases": [
+      "Dreams Winnipeg",
+      "Dreams Nightclub"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  },
+  {
+    "name": "Little Brown Jug",
+    "type": "venue",
+    "city": "Winnipeg",
+    "province": "MB",
+    "country": "Canada",
+    "url": "",
+    "instagram": "littlebrownjugbrewing",
+    "aliases": [
+      "Little Brown Jug Brewing",
+      "Little Brown Jug Brewing Co",
+      "LBJ"
+    ],
+    "parser": "none",
+    "agent_mode": "always"
+  }
+]

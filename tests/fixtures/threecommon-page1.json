@@ -1,0 +1,27 @@
+{
+ "pagination": {
+  "count": 21,
+  "pageCount": 2
+ },
+ "events": [
+  {
+   "_id": "6abd7cd0d46bb0626779c02d",
+   "name": "Courriers Single Release Show w/ Second Floor Patients, The Program & Sewnshut",
+   "start": "2026-11-29T01:00:00.000Z",
+   "end": "2026-11-29T02:00:00.000Z",
+   "currency": "CAD",
+   "items": [
+    {
+     "name": "",
+     "type": "regular",
+     "price": "0"
+    }
+   ],
+   "timezone": {
+    "value": "America/Winnipeg",
+    "offset": 300
+   },
+   "description": "<b>COURRIERS Single Release Show</b><div><b>with&nbsp;</b></div><div><b>SECOND FLOOR PATIENTS</b></div><div><b>THE PROGRAM</b></div><div><b>SEWNSHUT</b></div><div><b><br></b></div><div><b>ALL AGES</b>"
+  }
+ ]
+}
